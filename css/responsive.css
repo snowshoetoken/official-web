@@ -857,7 +857,7 @@
 		width: 100%
 	}
 	.header .navbar {
-		padding: 60px 0 15px !important;
+		padding: 5px 0 !important;
 		z-index: 99;
 		background: #020c59 !important;
 	}
@@ -1285,12 +1285,14 @@
 	}
 	.navbar-light .navbar-brand::before {
 		background: url(../images/ico/logo.png);
-    position: absolute;
-    top: 0;
-    content: "";
-    height: 55px;
-    width: 120px;
-    background-repeat: no-repeat;
+		background-size: 40px 40px;
+		position: absolute;
+		top: 15px;
+		right: -15px;
+		content: "";
+		height: 55px;
+		width: 40px;
+		background-repeat: no-repeat;
 	}
 	.header_effect {
 		display: none;

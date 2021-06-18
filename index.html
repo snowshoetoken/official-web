@@ -13,21 +13,20 @@
     <!-- Goole Font -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet"> 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://getnajmul.com/theme/cryptonio/css/assets/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <!-- Font awsome CSS -->
-    <link rel="stylesheet" href="vendor/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="https://getnajmul.com/theme/cryptonio/fonts/flaticon/flaticon.css">
+    <link rel="stylesheet" href="bower_components/font-awsome/css/all.min.css">
+    <link rel="stylesheet" href="fonts/flaticon/flaticon.css">
     <!-- popup-->
-    <link rel="stylesheet" href="https://getnajmul.com/theme/cryptonio/css/assets/magnific-popup.css">
-    <link rel="stylesheet" href="https://getnajmul.com/theme/cryptonio/css/assets/owl.carousel.css">
-    <link rel="stylesheet" href="https://getnajmul.com/theme/cryptonio/css/assets/owl.theme.css">
-    <link rel="stylesheet" href="https://getnajmul.com/theme/cryptonio/css/assets/jquery.countdown.css">
-    <link rel="stylesheet" href="https://getnajmul.com/theme/cryptonio/css/assets/animate.css">
+    <link rel="stylesheet" href="bower_components/magnific-popup/dist/magnific-popup.css">
+    <link rel="stylesheet" href="bower_components/owl.carousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="bower_components/owl.carousel/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="bower_components/daneden/animate.min.css">
     <!-- preloader css-->    
-    <link rel="stylesheet" href="https://getnajmul.com/theme/cryptonio/css/assets/preloader.css">
+    <link rel="stylesheet" href="css/preloader.css">
     <!-- main style-->
-    <link rel="stylesheet" href="https://getnajmul.com/theme/cryptonio/css/style.css">
-    <link rel="stylesheet" href="https://getnajmul.com/theme/cryptonio/css/cryptonio.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cryptonio.css">
     <link rel="stylesheet" href="css/responsive.css">
                             
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -48,10 +47,12 @@
     <!-- START NAVBAR -->
     <nav class="navbar navbar-expand-md navbar-light bg-faded cripto_nav">
         <div class="container">
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-bars"></i>
             </button>
-            <a class="navbar-brand"  data-scroll  href="index.html"><img src="images/ico/logo.png" alt="logo"></a>
+            <a class="navbar-brand"  data-scroll  href="index.html">
+                <img src="images/ico/logo.png" alt="logo">
+            </a>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
@@ -64,7 +65,7 @@
                 </ul>
             </div>
             <div class="language">
-                <a href="#" class="token">Buy token</a>
+                <a href="#" class="token d-none d-md-block">Buy token</a>
             </div>
         </div>
     </nav><!-- END NAVBAR -->
@@ -73,7 +74,8 @@
             <div class="col-12 col-md-12 col-lg-6">
                 <div class="intro-text">
                     <h1>SNOWSHOE</h1>
-                    <p>Snowshoe is a community meme token, built on Solana blockchain. If you consider yourself to be an artist, this is the right place for you.</p>
+                    <p>Snowshoe is a community meme token, built on Solana blockchain.</p>
+                    <p>If you consider yourself to be an artist, this is the right place for you.</p>
                     <div class="btn_video_wrapper">
                         <a href="#" class="btn btn-default btn-default-style">Buy $SNOWSHOE</a>
                         <div class="video_wrapper">
@@ -124,8 +126,10 @@
             <div class="col-sm-12 col-md-10 col-lg-10 mx-auto">
                 <div class="about_cryptonic-content">
                     <img src="https://getnajmul.com/theme/cryptonio/images/welcome-6.png" alt=""  class="wow ZoomInUp" data-animate="ZoomInUp" data-delay=".3s">
-                    <p class=" wow fadeInUp" data-animate="fadeInUp" data-delay="0.3s">Snowshoe is a project that aims to reward art creators, for their original art through a community-ranked leaderboard. Every week artists will compete in "CAT ART" event. Top artist will be rewarded in SNOWSHOE tokens with their art presented on our website. Artist of the week with title Snowshoe Picasso. <br>
-                    Email: snowshoecommunity@gmail.com</p>
+                    <p class="wow fadeInUp" data-animate="fadeInUp" data-delay="0.3s">Snowshoe is a project that aims to reward art creators, for their original art through a community-ranked leaderboard.</p>
+                    <p class="wow fadeInUp" data-animate="fadeInUp" data-delay="0.3s">Every week artists will compete in "CAT ART" event. Top artist will be rewarded in SNOWSHOE tokens with their art presented on our website.</p>
+                    <p class="wow fadeInUp" data-animate="fadeInUp" data-delay="0.3s">Artist of the week with title Snowshoe Picasso.</p>
+                    <p class="wow fadeInUp font-weight-bold text-white" data-animate="fadeInUp" data-delay="0.3s">Email: snowshoecommunity@gmail.com</p>
                     <a href="#" class="btn btn-default btn-default-style wow fadeInUp" data-animate="fadeInUp" data-delay="0.4s">Whitepaper Soon</a>
                 </div>
             </div>           
@@ -152,7 +156,7 @@
                 <div class="single-items wow fadeInUp" data-wow-duration="2s" data-wow-delay=".3s">
                     <h3>Max Supply</h3>
                     <img src="https://getnajmul.com/theme/cryptonio/images/icons/feature-01.png" alt="">
-                    <p>10,000,000,000 $SNOWSHOE</p>
+                    <p class="text-white">10,000,000,000 $SNOWSHOE</p>
                 </div>
             </div>
 
@@ -160,7 +164,7 @@
                 <div class="single-items wow fadeInUp" data-wow-duration="2s" data-wow-delay=".4s">
                     <h3>Burn</h3>
                     <img src="https://getnajmul.com/theme/cryptonio/images/icons/feature-03.png" alt="">
-                    <p>60% will be burned in 10 events</p>
+                    <p class="text-white">60% will be burned in 10 events</p>
                 </div>
             </div>
         </div>  
@@ -275,6 +279,7 @@
             <div class="col-sm-12">
                 <div class="sub-title">
                     <h2 class=" wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">Snowshoe Roadmap</h2>
+                    <p class=" wow fadeInUp" data-wow-duration="2s" data-wow-delay=".3s">Snowshoe is a project that aims to reward art creators, for their original art through a community-ranked leaderboard.</p>
                 </div>
             </div>
         </div>     
@@ -287,42 +292,42 @@
                             <span></span>
                             <div class="location_title">
                                 <h3>Birth of Snowshoe</h3>
-                                <p class="text-left"><i class="fas fa-check"></i> Growing our community up to 10.000+ members</p>
-                                <p class="text-left"><i class="fas fa-check"></i> Updating to website 2.0</p>
-                                <p class="text-left"><i class="fas fa-angle-right"></i> Giving roles to committement members</p>
-                                <p class="text-left"><i class="fas fa-angle-right"></i> Organizing events for members in order to obtain roles</p>
+                                <p class="text-left text-white"><i class="fas fa-check"></i> Growing our community up to 10.000+ members</p>
+                                <p class="text-left text-white"><i class="fas fa-check"></i> Updating to website 2.0</p>
+                                <p class="text-left text-white"><i class="fas fa-angle-right"></i> Giving roles to committement members</p>
+                                <p class="text-left text-white"><i class="fas fa-angle-right"></i> Organizing events for members in order to obtain roles</p>
                             </div>
                         </div>
                         <div class="location location_bttom location_2  wow fadeInUp" data-wow-duration="2s" data-wow-delay=".3s">
                             <span></span>
                             <div class="location_title">
                                 <h3>Presenting Snowshoe to the world</h3>
-                                <p class="text-left"><i class="fas fa-angle-right"></i> Airdroping $SNOWSHOE to the community</p>
-                                <p class="text-left"><i class="fas fa-angle-right"></i> Setting up Whitepaper</p>
-                                <p class="text-left"><i class="fas fa-angle-right"></i> Updating to website 3.0</p>
-                                <p class="text-left"><i class="fas fa-angle-right"></i> Airdrops from different communities to our holders</p>
-                                <p class="text-left"><i class="fas fa-angle-right"></i> Listing SNOWSHOE on Serum</p>
+                                <p class="text-left text-white"><i class="fas fa-angle-right"></i> Airdroping $SNOWSHOE to the community</p>
+                                <p class="text-left text-white"><i class="fas fa-angle-right"></i> Setting up Whitepaper</p>
+                                <p class="text-left text-white"><i class="fas fa-angle-right"></i> Updating to website 3.0</p>
+                                <p class="text-left text-white"><i class="fas fa-angle-right"></i> Airdrops from different communities to our holders</p>
+                                <p class="text-left text-white"><i class="fas fa-angle-right"></i> Listing SNOWSHOE on Serum</p>
                             </div>
                         </div>
                         <div class="location location_top location_3  wow fadeInUp" data-wow-duration="2s" data-wow-delay=".4s">
                             <span></span>
                             <div class="location_title">
                                 <h3>Growing our cat community</h3>
-                                <p class="text-left"><i class="fas fa-angle-right"></i> Organizing first art competition</p>
-                                <p class="text-left"><i class="fas fa-angle-right"></i> First burn event </p>
-                                <p class="text-left"><i class="fas fa-angle-right"></i> More airdrops from different communities</p>
-                                <p class="text-left"><i class="fas fa-angle-right"></i> Making first promotional video</p>
-                                <p class="text-left"><i class="fas fa-angle-right"></i> Promotions on Youtube, Twitter, Instagram, TikTok etc.</p>
+                                <p class="text-left text-white"><i class="fas fa-angle-right"></i> Organizing first art competition</p>
+                                <p class="text-left text-white"><i class="fas fa-angle-right"></i> First burn event </p>
+                                <p class="text-left text-white"><i class="fas fa-angle-right"></i> More airdrops from different communities</p>
+                                <p class="text-left text-white"><i class="fas fa-angle-right"></i> Making first promotional video</p>
+                                <p class="text-left text-white"><i class="fas fa-angle-right"></i> Promotions on Youtube, Twitter, Instagram, TikTok etc.</p>
                             </div>
                         </div>
                         <div class="location location_bttom location_4  wow fadeInUp" data-wow-duration="2s" data-wow-delay=".5s">
                             <span></span>
                             <div class="location_title">
                                 <h3>What's next?</h3>
-                                <p class="text-left"><i class="fas fa-angle-right"></i> $SNOWSHOE merchandise is made available</p>
-                                <p class="text-left"><i class="fas fa-angle-right"></i> LP Farms</p>
-                                <p class="text-left"><i class="fas fa-angle-right"></i> Next 9 burn events</p>
-                                <p class="text-left"><i class="fas fa-angle-right"></i> Becoming a well known cat on Solana blockchain!</p>
+                                <p class="text-left text-white"><i class="fas fa-angle-right"></i> $SNOWSHOE merchandise is made available</p>
+                                <p class="text-left text-white"><i class="fas fa-angle-right"></i> LP Farms</p>
+                                <p class="text-left text-white"><i class="fas fa-angle-right"></i> Next 9 burn events</p>
+                                <p class="text-left text-white"><i class="fas fa-angle-right"></i> Becoming a well known cat on Solana blockchain!</p>
                             </div>
                         </div>
                     </div>
@@ -459,18 +464,15 @@
 
     <!-- JavaScript Files -->
     <script src="https://getnajmul.com/theme/cryptonio/js/assets/jquery-3.2.1.min.js"></script>
-    <script src="https://getnajmul.com/theme/cryptonio/js/assets/popper.min.js"></script>
-    <script src="https://getnajmul.com/theme/cryptonio/js/assets/bootstrap.min.js"></script>
-    <script src="https://getnajmul.com/theme/cryptonio/js/assets/owl.carousel.min.js"></script>    
-    <script src="https://getnajmul.com/theme/cryptonio/js/assets/jquery.sticky.js"></script>
-    <script src="https://getnajmul.com/theme/cryptonio/js/assets/isotope.pkgd.min.js"></script>
-    <script src="https://getnajmul.com/theme/cryptonio/js/assets/jquery.magnific-popup.min.js"></script>
-    <script src="https://getnajmul.com/theme/cryptonio/js/assets/jquery.downCount2.js"></script>
-    <script src="https://getnajmul.com/theme/cryptonio/js/assets/jquery.countdown.js"></script>
-    <script src="https://getnajmul.com/theme/cryptonio/js/assets/particles.js"></script>
-    <script src="https://getnajmul.com/theme/cryptonio/js/assets/app.js"></script>      
-    <script src="https://getnajmul.com/theme/cryptonio/js/assets/smooth-scroll.js"></script> 
-    <script src="https://getnajmul.com/theme/cryptonio/js/assets/wow.min.js"></script>              
-    <script src="https://getnajmul.com/theme/cryptonio/js/custom.js"></script>  
+    <script src="bower_components/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="bower_components/owl.carousel/dist/owl.carousel.min.js"></script>    
+    <script src="bower_components/jquery-sticky/jquery.sticky.js"></script>
+    <script src="bower_components/isotope-layout/dist/isotope.pkgd.min.js"></script>
+    <script src="bower_components/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+    <script src="bower_components/particles.js/particles.min.js"></script>
+    <script src="js/app.js"></script>      
+    <script src="bower_components/smooth-scroll.js/dist/smooth-scroll.min.js"></script> 
+    <script src="bower_components/wow/dist/wow.min.js"></script>              
+    <script src="js/custom.js"></script>  
 </body>
 </html>
